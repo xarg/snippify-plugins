@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>snippify@alexandru.plugaru</em:id>
+    <em:name>snippify</em:name>
+    <em:version>0.1</em:version>
+    <em:creator>Alexandru Plugaru</em:creator>
+    <em:description>Used to post snippets on snippify.me web-app</em:description>
+    <em:homepageURL>http://www.snippify.me/</em:homepageURL>
+    <em:aboutURL>chrome://snippify/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://snippify/content/options.xul</em:optionsURL>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- firefox -->
+        <em:minVersion>1.5</em:minVersion>
+        <em:maxVersion>3.5+</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

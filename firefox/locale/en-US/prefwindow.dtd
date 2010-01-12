@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "snippify preferences">
+<!ENTITY pane1.title "snippify preferences">
+<!ENTITY apiurl.label "API url">
+<!ENTITY restkey.label "Private key">

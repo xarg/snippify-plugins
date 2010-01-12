@@ -1,0 +1,4 @@
+content	snippify	content/
+locale	snippify	en-US	locale/en-US/
+skin	snippify	classic/1.0	skin/
+overlay	chrome://browser/content/browser.xul	chrome://snippify/content/firefoxOverlay.xul
